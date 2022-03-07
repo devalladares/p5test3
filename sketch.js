@@ -145,7 +145,7 @@ class circleRing {
   //liner////liner////liner////liner////liner////liner//
   liner() {
 
-    stroke(155,155,155)
+    stroke(255)
     noFill()
     strokeWeight(this.lineStroke)
 
@@ -201,7 +201,7 @@ class circleRing {
     strokeWeight(this.lineStroke)
     // strokeWeight(1)
     noFill()
-    stroke(0)
+    stroke(255)
     circle(0, 0, this.bigRadius * 2)
     // circle(0, 0, this.radius)
 
